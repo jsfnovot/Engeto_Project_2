@@ -58,7 +58,7 @@ def main_game():
     while input("Enter 'Y' to start the game, any other key to quit: ") in ["Y", "y"]:
         print(sep)
         number = generate_number()
-        print(number)
+        # print(number)
         guesses = 0
         start = time()
         while (guess := input("Enter a number: ")) != number:
